@@ -1,0 +1,112 @@
+    @font-face{
+        font-family:"android";
+        src: url("fontes/idroid.otf") format("opentype"),
+             url("fontes/idroid.otf") format("truetype");
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    margin-top: 0%;
+    background-color: wheat;
+}
+
+nav{
+    background-image: linear-gradient(70deg,rgb(18, 175, 18),rgb(3, 94, 3));
+    padding: 10px;
+    margin: 0px;
+}
+nav>h1{
+    text-align:center ;
+    color: white;
+    line-height: 1;
+    margin: 0;
+}
+nav>p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+    .hdes{
+    margin-left: 10px;
+    font-family: "android";
+    color: green;
+    }
+section{
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+.hdes2{
+    font-family: "android";
+    color: green;
+    background-image: linear-gradient(to right,rgb(10, 214, 10), rgba(19, 238, 19, 0.13));
+}
+p>a{
+    background-color: rgb(10, 214, 10);
+}
+.imgandroid{
+    padding-left: 120px;
+}
+p>span{
+    color: rgb(1, 80, 1);
+}
+.imgblok{
+height: 270px;
+}
+.mini{
+    width: 200px;
+    margin-left: 390px;
+}
+div#video{
+    background-color:green;
+    padding-top: 15px;
+}
+iframe{
+    margin-left: 70px;
+    margin-right: 40px;
+    
+}
+header>h1{
+    background-color: green;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: #64B286;
+}
+.lista {
+    display: flex; /* Coloca as listas lado a lado */
+    gap: 220px; /* Espaçamento entre as listas */
+}
+
+.lista ul {
+    list-style: none;
+    padding: 0; 
+    margin: 0; 
+}
+
+.lista li {
+    margin-bottom: 5px; 
+    text-decoration: underline;
+}
+.def{
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+article>span{
+    cursor: pointer;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+article>span:hover{
+    background-color: #0a880aec;
+    padding: 10px;
+    border-radius: 20px;
+}
