@@ -38,7 +38,11 @@ section{
     margin-left: 200px;
     margin-right: 200px;
     background-color: white;
-    border-radius: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
 }
 .hdes2{
     font-family: "android";
@@ -48,18 +52,11 @@ section{
 p>a{
     background-color: rgb(10, 214, 10);
 }
-.imgandroid{
-    padding-left: 120px;
-}
 p>span{
     color: rgb(1, 80, 1);
 }
 .imgblok{
 height: 270px;
-}
-.mini{
-    width: 200px;
-    margin-left: 390px;
 }
 div#video{
     background-color:green;
@@ -109,4 +106,12 @@ article>span:hover{
     background-color: #0a880aec;
     padding: 10px;
     border-radius: 20px;
+}
+section img{
+    width: 100%;
+}
+section img.pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
 }
